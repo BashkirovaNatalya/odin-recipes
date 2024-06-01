@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica, Verdana, Tahoma, sans-serif;
+    background-color: #ddccff;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 54px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10%;
+}
+
+h2 {
+    background-color: #bb99ff;
+    font-size: 36px;
+}
+
+li {
+    list-style-type: square;
+}
+
+.recipe-list li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+p {
+    font-weight: 200;
+}
+
+li a:hover{
+    background-color: #7733ff;
+    color: #ffffff;
+}
