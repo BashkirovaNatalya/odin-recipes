@@ -1,6 +1,7 @@
 * {
     font-family: Helvetica, Verdana, Tahoma, sans-serif;
-    background-color: #ddccff;
+    background-color: #e0d9f0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -10,18 +11,24 @@ h1 {
 }
 
 img {
-    width: 500px;
-    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 10   0%;
     border-radius: 10%;
+    border: white 5px solid;
 }
 
 h2 {
+    padding: 3px 3px 3px 20px;
     background-color: #bb99ff;
     font-size: 36px;
 }
 
-li {
+.recipe-name{
+    text-align: center;
+    width: 100%;
     list-style-type: square;
+    margin: 0 auto;  
 }
 
 .recipe-list li {
@@ -31,9 +38,46 @@ li {
 
 p {
     font-weight: 200;
+    margin: 30px;
 }
 
-li a:hover{
+a {
+    text-decoration: none;
+}
+
+li.recipe-name:hover{
+    font-variant: normal;
+    font-size: 24px;
+    background-color: #7733ff;
+    width: 100%;
+    color: #ffffff;
+    border: 5px white groove;
+    
+}
+
+li.recipe-name a:hover{
     background-color: #7733ff;
     color: #ffffff;
+}
+
+ul.recipe-list {
+    margin: 0 auto;  
+    background-color: burlywood;  
+    padding: 10px;
+    border: 1px white solid;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ingredients-list li{
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.recipe-steps li{
+    margin: 30px;
+    border: 2px hotpink dashed;
 }
